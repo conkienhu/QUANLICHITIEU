@@ -1,0 +1,7 @@
+{
+  "code-runner.executorMap": {
+    "java": "cd /d \"$workspaceRoot\" && if not exist out mkdir out && javac -encoding UTF-8 -d out -sourcepath src src\\com\\expense\\Main.java && java -cp out com.expense.Main"
+  },
+  "code-runner.runInTerminal": false,
+  "code-runner.saveAllFilesBeforeRun": true
+}
